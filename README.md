@@ -62,57 +62,57 @@ Para a busca de usuários, caso não seja feito a autenticação, os dados irão
 - Criação
 
 ```javascript
-	{
-		"id": 1,
-		"email": "fulano@mail.com",
-		"username": "fulano",
-		"nome": "Fulano de Tal",
-		"data_criacao": "2018-03-21 10:00:00"
-	}
+{
+  "id": 1,
+  "email": "fulano@mail.com",
+  "username": "fulano",
+  "nome": "Fulano de Tal",
+  "data_criacao": "2018-03-21 10:00:00"
+}
 ```
 
 - Busca - Admin e User
 
 ```javascript
-	{
-		"id": 1,
-		"email": "fulano@mail.com",
-		"username": "fulano",
-		"nome": "Fulano de Tal",
-		"data_criacao": "2018-03-21 10:00:00"
-	}
+{
+  "id": 1,
+  "email": "fulano@mail.com",
+  "username": "fulano",
+  "nome": "Fulano de Tal",
+  "data_criacao": "2018-03-21 10:00:00"
+}
 ```
 
 - Busca - Sem autenticação
 
 ```javascript
-	{
-		"id": 1,
-		"email": "ful***@****.com",
-		"username": "ful***",
-		"nome": "Ful*** ** Ta*",
-		"data_criacao": "2018-****"
-	}
+{
+  "id": 1,
+  "email": "ful***@****.com",
+  "username": "ful***",
+  "nome": "Ful*** ** Ta*",
+  "data_criacao": "2018-****"
+}
 ```
 
 - Alteração - Admin e User - Retornar o usuário alterado
 
 ```javascript
-	{
-		"id": 1,
-		"email": "fulano@mail.com",
-		"username": "fulano",
-		"nome": "Fulano de Tal",
-		"data_criacao": "2018-03-21 10:00:00"
-	}
+{
+  "id": 1,
+  "email": "fulano@mail.com",
+  "username": "fulano",
+  "nome": "Fulano de Tal",
+  "data_criacao": "2018-03-21 10:00:00"
+}
 ```
 
 - Deleção - Admin e User - Retornar a mensagem de sucesso
 
 ```javascript
-	{
-		"mensagem" : "Usuário fulano deletado com sucesso"
-	}
+{
+  "mensagem" : "Usuário fulano deletado com sucesso"
+}
 ```
 
 ### Como participar
