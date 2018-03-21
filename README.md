@@ -31,19 +31,19 @@ Requisitos para a vaga:
 
 ### O teste
 
-O desenvolvedor irá ter que criar uma API RESTFul com 4 Enpoints
+O desenvolvedor irá ter que criar uma API RESTFul com 4 Enpoints usando ***PHP 5.6 ou superior***
 
 - Criar um usuário;
 - Listar um usuário pelo id ou username;
 - Alterar um usuário;
-- Deletar um usuário;
+- Deletar um usuário pelo id ou username;
 
-Para acessar esses endpoits será necessário autenticar-se na API, onde terá dois tipos de usuários:
+Para acessar esses endpoits (Exceto o de criação de usuários) será necessário autenticar-se na API, onde terá dois tipos de usuários:
 
 - Admin - Pode Criar quantos usuários quiser, Pode listar qualquer usuário, Pode alterar qualquer usuário, Pode deletar qualquer usuário;
 - User  - Pode Criar quantos usuários quiser, Pode listar somente seu usuário, Pode alterar somente seu usuário, Pode deletar somente seu usuário;
 
-### Tabela do banco de dados
+### Tabela do banco de dados - Deverá ser usado MySql
 
 | Campos            |
 | ------------------|
@@ -53,3 +53,16 @@ Para acessar esses endpoits será necessário autenticar-se na API, onde terá d
 | `nome`       		|
 | `sobrenome`      	|
 | `data_criacao`    |
+
+
+### Como participar
+
+1. Faça o fork do desafio.
+
+2. Você terá **1 dia para** desenvolver a partir da data do envio do teste. 
+
+3. Crie um **PROJECT.md** com a explicação de como executar e com o máximo de detalhes de como o teste foi feito como: tecnologia, framework, padões de projetos etc.
+
+4. Após concluir faça um pull request.
+
+5. Envie um e-mail para anderson@procob.com.br com seu **curriculo, pretensão salarial e o link do seu pull request**.
