@@ -31,6 +31,7 @@ Requisitos para a vaga:
 
 - Design Patterns
 - NoSQL
+- GitLab
 - Git flow
 - PHPUnit
 
