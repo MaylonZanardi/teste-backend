@@ -124,10 +124,10 @@ Para a busca de usuários, caso não seja feito a autenticação, os dados irão
 
 ```javascript
 {
-	"erro": {
-		"mensagem": "Mensagem do erro",
-		"http_status": "Código http do erro"
-	}
+  "erro": {
+    "mensagem": "Mensagem do erro",
+    "http_status": "Código http do erro"
+  }
 }
 ```
 
