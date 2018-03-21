@@ -32,6 +32,7 @@ Requisitos para a vaga:
 - Design Patterns
 - NoSQL
 - Git flow
+- PHPUnit
 
 
 ### O teste
