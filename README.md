@@ -120,6 +120,17 @@ Para a busca de usuários, caso não seja feito a autenticação, os dados irão
 }
 ```
 
+- Retorno para erro ou exceção
+
+```javascript
+{
+	"erro": {
+		"mensagem": "Mensagem do erro",
+		"http_status": "Código http do erro"
+	}
+}
+```
+
 ### Como participar
 
 1. Faça o fork do desafio.
